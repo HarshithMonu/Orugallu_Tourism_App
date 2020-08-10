@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context=".supprabha"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/supra"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel Suprabha"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Nakkalagutta, NH163, Balasamudram, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/sup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suprabha"
+            android:autoLink="web"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe left to see more photos."/>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/supray"
+                    />
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/supraw"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/suprat"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/suprar"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/supraq"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/suprae"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+</ScrollView>

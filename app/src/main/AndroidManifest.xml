@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="harshith.com.guide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".chidparks"></activity>
+        <activity android:name=".wowwarangal" />
+        <activity android:name=".narasimha" />
+        <activity android:name=".kushmaha" />
+        <activity android:name=".harihara" />
+        <activity android:name=".smeshwara" />
+        <activity android:name=".dathatreya" />
+        <activity android:name=".iskn" />
+        <activity android:name=".amarawathi" />
+        <activity android:name=".spashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mustvisit" />
+        <activity android:name=".Hotel" />
+        <activity android:name=".grandgayatri" />
+        <activity android:name=".mitra" />
+        <activity android:name=".satya" />
+        <activity android:name=".radhika" />
+        <activity android:name=".shreshta" />
+        <activity android:name=".crysta" />
+        <activity android:name=".ragahvendra" />
+        <activity android:name=".shreya" />
+        <activity android:name=".ratna" />
+        <activity android:name=".mark" />
+        <activity android:name=".harithakakatiya" />
+        <activity android:name=".ashka" />
+        <activity android:name=".turism" />
+        <activity android:name=".parksbuttn" />
+        <activity android:name=".visitingbuttns" />
+        <activity android:name=".kotitemple" />
+        <activity android:name=".swethaganapathi" />
+        <activity android:name=".metutatempe" />
+        <activity android:name=".tempesbuttn" />
+        <activity android:name=".aggalaiahgutta" />
+        <activity android:name=".supprabha" />
+        <activity android:name=".citygrand" />
+        <activity android:name=".quickbitesmap" />
+        <activity android:name=".restarantsmap" />
+        <activity android:name=".warangarestuarants" />
+        <activity android:name=".hanamakonda" />
+        <activity android:name=".vshnavigrand" />
+        <activity android:name=".bhadrakibund" />
+        <activity android:name=".wadepbund" />
+        <activity android:name=".pubicgarden" />
+        <activity android:name=".biteeeeeeees" />
+        <activity android:name=".Restaaaaaa" />
+        <activity android:name=".restuarants" />
+        <activity android:name=".pandava" />
+        <activity android:name=".hemachatemp" />
+        <activity android:name=".reginascience" />
+        <activity android:name=".waranmuesem" />
+        <activity android:name=".inuparthi" />
+        <activity android:name=".kataghapur" />
+        <activity android:name=".swaymbu" />
+        <activity android:name=".bheemuni" />
+        <activity android:name=".sideshwara" />
+        <activity android:name=".rayaparthy" />
+        <activity android:name=".ekashigraden" />
+        <activity android:name=".gvindagut" />
+        <activity android:name=".padmaksgutta" />
+        <activity android:name=".inavutemp" />
+        <activity android:name=".vanavignan" />
+        <activity android:name=".kakatiyamgard" />
+        <activity android:name=".etungrmws" />
+        <activity android:name=".warangafrt" />
+        <activity android:name=".pakahws" />
+        <activity android:name=".pakah" />
+        <activity android:name=".Bgtha" />
+        <activity android:name=".Laknavaram" />
+        <activity android:name=".ramapa_lake" />
+        <activity android:name=".saibabatemple" />
+        <activity android:name=".padmaskhitemp" />
+        <activity android:name=".thusand" />
+        <activity android:name=".samaka" />
+        <activity android:name=".ramappa" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+    </application>
+
+</manifest>

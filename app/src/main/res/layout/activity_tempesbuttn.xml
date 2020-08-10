@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tempesbuttn">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shiva"
+        android:textColor="#000"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temples"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"/>
+
+        <ListView
+            android:id="@+id/tempes_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <!--   <Button
+               android:id="@+id/ramapatemp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Ramappa Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/medaramja"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Medaram Jatara"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"/>
+           <Button
+               android:id="@+id/bhadratemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bhadrakali Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/thusandtemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1000 pillar temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"/>
+           <Button
+               android:id="@+id/inavutemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Inavollu Mallanna Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/padmaktemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Padmakshi Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"/>
+           <Button
+               android:id="@+id/gvindgutta"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Govinda Rajula Gutta"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/rayapatemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Rayaparthy Shiva Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"/>
+           <Button
+               android:id="@+id/siddeshtemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Sri Siddeshwara Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/swayambutemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Swayambhu temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/ktagullu"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ganapeshwaralayam ( Kota Gullu )"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"/>
+           <Button
+               android:id="@+id/laxminartemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Sri Hemachala Laxmi Narsimha Swamy Devalayam"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"/>
+           <Button
+               android:id="@+id/saitemp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Sai baba Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/mettugutta"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mettugutta Ramalingeshware temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/ktilinga"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Kotilingala Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+           <Button
+               android:id="@+id/swethagana"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Swetharkamoola Ganapathi Temple"
+               android:layout_gravity="center"
+               android:paddingBottom="20dp"
+               />
+
+            -->
+    </LinearLayout>
+
+   </LinearLayout>

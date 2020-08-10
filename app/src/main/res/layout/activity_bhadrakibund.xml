@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bhadrakibund">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            android:paddingBottom="12dp"
+            android:src="@drawable/bhdrbun"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhadrakali Bund"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="It is constructed on the shore of Bhadrakali Lake and it provides the peace and calm atmosphere.It has a walking track, seating area, playing area, viewing decks, bird walks, toy train track, parking area, lighting, street furniture and landscape.Bhadrakali Lake is a lake in Warangal, Telangana built by Ganapati Deva of Kakatiya dynasty."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Bhadrakali Bund rd, Dwaraka Nagar, Shyampet, Warangal, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directions"
+            android:paddingBottom="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

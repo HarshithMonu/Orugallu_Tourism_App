@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ramapa_lake">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rmpche"
+            android:id="@+id/rmpc"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ramappa Lake"
+            android:paddingBottom="12dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="26dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="The Kakatiya dynasty which had ruled Telangana region has left an indelible impression of their reign in Warangal district in the form of renowned temples and lakes. Ramappa Lake in Warangal district is considered as a magnificent example of the irrigation works of Kakatiya Rulers. It is believed to have been constructed in 13th Century A.D. during the reign of Ganapathi Deva and the water is spread more than an area of 82 Sq km with verdant greenery all around. This lake is over looked by some really beautiful hill ranges in the background which offers a spectacular view especially during sunset time."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="Another tourist attraction at the Ramappa Lake is the pump house and the path which leads visitors to it. The pump house is 5 minutes from the main lake."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acc"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/rmpake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

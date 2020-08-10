@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ragahvendra">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/raghavendra"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raghavendra Residency"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Opposite Subedari post office, lane, beside kakathiya Grand restaurant, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raghava"
+            android:autoLink="web"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/raghav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe left to see more photos."/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/ragq"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/ragw"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/rage"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/ragr"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/ragt"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

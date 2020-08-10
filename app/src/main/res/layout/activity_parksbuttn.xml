@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dikku"
+    android:layout_height="match_parent"
+    tools:context=".parksbuttn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parks"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:textSize="30dp"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"
+            android:layout_gravity="center"/>
+
+        <ListView
+            android:id="@+id/parks_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+       <!-- <Button
+            android:id="@+id/kakamusicgarden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/ekashigarden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ekashila Lake and Children Garden"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/pubicgarden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GWMC Public Garden"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/wadepaybund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waddepally tank bund"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/bhadrabund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bhadrakali bund"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/vanavignanpark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vana Vigyan Kendra Mini Zoo"
+            android:layout_gravity="center"/>
+-->
+
+    </LinearLayout>

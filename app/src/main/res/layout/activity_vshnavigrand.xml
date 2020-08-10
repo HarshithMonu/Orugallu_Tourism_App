@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vshnavigrand">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:src="@drawable/vyshgran"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel Vaishnavi Grand"
+            android:gravity="center"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="Address: Fatima Complex, Fatima Nagar, NH 163, Kazipet, Warangal, Telangana 506004"
+            />
+        <Button
+            android:id="@+id/vai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/siverspp"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silver Spoon Restaurant"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Revenue Colony Rd, Revenue Colony, Prakashreddypet, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/spn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/palam"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Palamuru Grill Restaurant"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 2-10-870/1, NH163, Phase 1, Teachers Colony, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/paa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sidr"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sidra Biryani House"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="Address: National Institute of Technology Campus, Hanamkonda, Telangana 506004"
+            />
+        <Button
+            android:id="@+id/sidra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/manar"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MANAR KEBAB and GRILL"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Revenue Colony Rd, Revenue Colony, Prakashreddypet, Hanamkonda, Telangana 506001"/>
+        <Button
+            android:id="@+id/manar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dine"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dine9 Arabian Multicuisine Restaurant"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="Address: Near Rec Petrol Pump, Chaitanyapuri Colony, Prashanthnagar Colony, Hanamkonda, Telangana 506370"/>
+        <Button
+            android:id="@+id/dine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kanish"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kanishka Dhaba"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Mayuri Garden Lane, Revenue Colony, near R.E.C. Petrol Pump, Hanamkonda, Telangana 506004"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/kanishka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kadai"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KADAI MULTI CUISINE RESTAURANT"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: NH163, Chaitanyapuri Colony, Prashanthnagar Colony, Kazipet, Telangana 506370"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/kadai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kainga"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sri Kalinga Restaurant"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Shop NO:1-1, 507/1, Hyderabad - Warangal Hwy, Near REC, Chaitanyapuri Colony, Prashanthnagar Colony, Kazipet, Telangana 506370"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/sri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/axmikitchen"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laxmi Lagoons Kitchen"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 870/1,, 2-10-870/1, NH163, Phase 1, Teachers Colony, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/axmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/skyares"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skyla Pure Veg Restaurant"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Hyderabad - Warangal Hwy, Revenue Colony, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/sky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dawaaaat"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DAAWAT Multi Cuisine Family Restaurant"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 2-10-816, Phase 1, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/dawat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kaaktiyagranad"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kakatiya Grand Hotel"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Post Office, Opp, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/kagrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/greeeeee"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenPark Biryani House"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 2-5-504, ChotiMasjid complex, Hanamkonda- Hyderabad Rd, Postal Colony, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/junooooooo"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Junoon Fine Dine Restaurant"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Bank Colony Main Rd, Waddepally, Phase 1, Teachers Colony, Hanamkonda, Telangana 506370"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/jun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+</ScrollView>

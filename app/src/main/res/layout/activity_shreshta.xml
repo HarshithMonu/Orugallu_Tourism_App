@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shreshta">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/shreshta"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Hotel Shreshta Inn"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 1, Kothur Jenda, Gandhi Nagar, Reddy Colony, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shreshta"
+            android:autoLink="web"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/shresta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe left to see more photos."/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/shresa"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/shresq"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/shresw"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/shrese"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/shresr"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/shrest"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

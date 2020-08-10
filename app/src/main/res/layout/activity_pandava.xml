@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pandava">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/pand"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pandavula Guhalu"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="Rock art is a form of landscape art, which is found only in certain regions of India. Jayshankar Bhupalpally district in Telangana is home to many prehistoric habitation sites. Paleolithic cave paintings have been found at Pandavula Gutta (Regonda mandal). Pandavulakonda (Pandavula Gutta) site was first discovered in the year 1990. The major attraction here is rock climbing.
+These cave paintings offer a rare glimpse into the prehistoric man’s rock art identified on walls and ceilings of caves, rock shelters and isolated boulders. The rock art paintings depict wild life like Bison, Antelope, Tiger, Leopard etc. Other shapes like swastika symbol, circles and squares, weapons such as bows, arrows, sword and lancer etc are present in these paintings. The paintings also feature geometrical designs and impressions in green, red, yellow and white pigment colours. Pandavula Gutta is rich in terms of number of paintings, rock shelters and its habitation, right from the mesolithic to medieval times."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/panda_inf"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/pandava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

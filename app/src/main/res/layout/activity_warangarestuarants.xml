@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".warangarestuarants">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/citygrand"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City Grand Hotel"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: SVP Road, Rangampet Rd, Opp. Ramakrishna Theater, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/citygrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/amgh"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amogh Restaurant"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: Jakotia mall, Pochamma Maidan, Vasavi Colony, Kothawada, Warangal, Telangana 506002"
+        android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/amgh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bayrestu"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bayleaf Multi-Cuisine Family Restaurant and Banquet Halls"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Jakotia Complex, 1st Floor, MG Rd, behind Reliance Digital, Pochamma Maidan, Warangal, Telangana 506002"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/bay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sasya"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sri Sasya Restaurant "
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: MG Rd, Pochamma Maidan, Venu Rao Colony, Sherpura, Warangal, Telangana 506002"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/sasya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ratnaa"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel Ratna"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: MG Rd, opp Indian Oil Petrol Bunk, Pochamma Maidan, Venu Rao Colony, Sherpura, Warangal, Telangana 506002"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/hratna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/khurshed"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KHURSHEED HOTEL"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Mandi Bazar, Sherpura, Warangal, Telangana 506002"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/kur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/urban1"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urban Spice"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Pocham Maidhan Chowrastha, Mandi Bazar, Sherpura, Warangal, Telangana 506002"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/urban"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/maharaja"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maharaja Bawarchi Biryani Hotel"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Station Rd, Badrakali Housing Society Colony, Old Beet Bazaar, Warangal, Telangana 506002"
+            />
+        <Button
+            android:id="@+id/mahabaw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

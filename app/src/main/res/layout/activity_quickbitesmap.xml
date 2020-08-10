@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quickbitesmap">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QuickBites"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kfc"
+        android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KFC"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: H No 1/7/762 to 1/7/764, Ward No 1, GF Block No 7, Adalath, Hanamkonda Beside DEO Office, Telangana 506002"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/kfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dminos"
+        android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Domino's Pizza"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: No. 1-7-43/4/A, NIT road Ground Floor, Revenue Colony, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/dmn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/br"
+       android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baskin Robbins"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 2-5-748 Baskin Robbins, opp. Arts and Science College, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/br"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/creeamstne"
+       android:paddingBottom="12dp"
+       />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cream Stone"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Haritha hotel premises, Nakkala Gutta, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/cs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/drunkenmnky"
+       android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drunken Monkey"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Karimnagar-Warangal Rd, Lashkar Singaram, Naim Nagar, Hanamkonda, Telangana 506009"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/dm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:src="@drawable/rver"
+       android:paddingBottom="12dp"
+       />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll Over"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Chaitanyapuri Colony, Prashanthnagar Colony, Hanamkonda, Telangana 506370"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/rice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tsf1"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The ThickShake Factory"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: No. 24-7-236/3,Hyderabad - Warangal Hwy, near Forest Office, Revenue Colony, Subedari, Kazipet, Telangana 506001"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/tsf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+
+        <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/assishp"
+       android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LASSI SHOP"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Badi Masjid complex, opposite Subedari Collectors Office, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 2-2-322, Vagdevi College, Rajaji Nagar, Kishanpura, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/shp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/cffeeunge"
+       android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Coffee Lounge"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: SBI In touch ATM , 2nd floor, Ramakrishna Colony, Phase 1, Teachers Colony, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/cff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/cuppers"
+       android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le Cupper's Coffee Shop"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Above KFC, 5th Floor Adalath Circle, Postal Colony, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/cupper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/mnkey"
+       android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Little Monkey Cafe"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 2-5-282 Nakkalagutta, opp: Haritha hotel , IOB lane, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/mnkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ravishing"
+       android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ravishing The Milkshake Bar"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Revenue, Prakashreddypet, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: NGO Colony Rd, Bhavani Nagar, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="Address: 24-7-45, NIT Post, Kazipet, Hanamkonda, Telangana 506004"/>
+        <Button
+            android:id="@+id/ravi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/mikshakebuffin"
+       android:paddingBottom="12dp"
+       />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MilkShake Buffin"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: KLN Reddy Colony, Subedari, Hanamkonda, Telangana 506002"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cya"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CYA - Crave Your Appetite"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 2-5-364, Adalath, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/cya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barista"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barista Fast food and Juice center"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Advocates Colony, Nakkala Gutta, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/bff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hungrybirds"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hungry Birds"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Revenue Colony, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/hbird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eatnmeet"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eat and Meet"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Door No 2-4, Hanamkonda, Warangal - 506001, Opposite REC Petrol Pump, NIIT Main Road "
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/eam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twstates"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 States"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Kazipet main road, HYD-WGL, HIGHWAY Highway no:163, Kazipet, Telangana 506003"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/states"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shakesm"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shakes'M'Stones"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Opp Police Head Quaters,Kishanpura, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icemagic"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ice Magic"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Hanamkonda Chowrastha, Brahmanawada, Hanamkonda, Telangana 506011"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/im"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chaatchatare"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chaat Chatore"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 7-1-29/1, beside library, public garden, Balasamudram, Hanamkonda, Telangana 506002"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dehideut"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="De Hideout"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: KLN Reddy Colony, Subedari, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/dh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/partyfw"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Party Fowl"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Rajaji Nagar, Ramnagar, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/pf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bttnstarw"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottle and Straw"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 1-7, 1105/3, Kaloji Marg, Advocates Colony, Nakkala Gutta, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/bs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/karamkunda"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaaram Kunda"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 5-11-199, Sri Rama Plywoods ,opp Dr.Vasavi's Hospital, Naim Nagar, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mamachicken"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mama Chicken"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anywhere in Warangal"/>
+        <Button
+            android:id="@+id/mc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

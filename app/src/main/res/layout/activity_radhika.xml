@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".radhika">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/radhika"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radika Residency"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 3/381, Ennugulagada, Raganna Darwaja, Gandhi Nagar, Reddy Colony, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radika"
+            android:autoLink="web"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/radika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe left to see more photos."/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/radq"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/radw"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/rade"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/radr"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/radt"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+</ScrollView>

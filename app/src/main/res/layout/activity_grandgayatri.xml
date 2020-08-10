@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grandgayatri">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:src="@drawable/granda"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel Grand Gayathri"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 8-5, 49/A, Station Rd, Opposite Sunil Theatre, Girmajipet, Warangal, Telangana 506002"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/grand"
+            android:autoLink="web"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/grand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe left to see more photos."/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/grandq"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/grandw"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/grande"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/grandr"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/grandt"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/grand"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

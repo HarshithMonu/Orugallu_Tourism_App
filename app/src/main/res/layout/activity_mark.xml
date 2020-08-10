@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/markand"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Landmark Hotel"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Plot No.183-94-22, Nakkalagutta, Hanamkonda, Warangal, Telangana 506001"
+            android:paddingBottom="12dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mark_inf"
+            android:paddingBottom="12dp"
+            android:autoLink="web"
+            />
+        <Button
+            android:id="@+id/mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe left to see more photos."/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/harit"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/marke"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/markq"/>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/markw"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/markr"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

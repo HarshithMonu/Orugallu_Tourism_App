@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sideshwara">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sidesh"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sri Siddeshwara Temple"
+            android:gravity="center"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siddeshwara Temple is dedicated to Lord Shiva and is situated near Hanamkonda in Warangal. It was constructed in the 3rd century AD and is one of the Paschimadwara Mukha Temples. The temple is popular for its intricately carved pillars and architectural work, which is similar to the Chalukyan style of architecture. A huge number of devotees visit this temple during the festival of Maha Shivratri."
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/sidesh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

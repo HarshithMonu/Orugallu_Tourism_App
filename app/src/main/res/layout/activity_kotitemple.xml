@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotitemple">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ktishivas"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotilingala Temple"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Koti Lingala is a Hindu journey site in Jagtial region of the Indian territory of Telangana. It is arranged in Velagatoor Mandal of the locale, on the Godavari river. It is situated on the bank of the Godavari River, and has a customary Shiva sanctuary for Hindus, the Koteswara Siddeshwara Temple. Archeological revelations at Kotilingala demonstrate that it was a vital town in old town, amid the time of the Osaka mahajanapada and the Satavahanas."
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Keerthi Nagar Colony, Keerthi Colony, Warangal, Telangana 506013"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hours of visit:   All days open                                                                               7 AM - 12 PM and 5 PM - 8 PM"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/kti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

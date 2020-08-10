@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gvindagut">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gvdrgt"
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Govinda Rajula Gutta"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Govindarajula Gutta is a small village surrounded by hilly terrain and lush green forests and is located close to Waranal. One of the major attractions of this village is a famous temple of Lord Shiva, which often sees many visitors. It is a strong belief among the locals that the deity of this temple has supernatural powers.
+
+Visitors can have a sight of Warangal City from the premises of the temple. From March to May, special Pujas are conducted in the temple, which attract numerous visitors from across the country."
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 10-3-95, Girmajipet Rd, Girmajipet, Warangal, Telangana 506002"
+            android:paddingBottom="12dp"
+            />
+        <Button
+            android:id="@+id/gvinda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

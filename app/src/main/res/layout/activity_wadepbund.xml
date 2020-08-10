@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wadepbund">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:paddingBottom="12dp"
+            android:src="@drawable/wdtnbd"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waddepally Tank Bund"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:paddingBottom="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" The beautification work of the Waddepally tank bund, which is aimed at attracting tourists to the place. It is a Mini-Tank Bund. It has a beautiful Waddepally Lake across the bund.The lake serves as a reservoir for drinking needs of the people of Hanamkonda and Kazipet."
+            android:paddingBottom="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Hyderabad - Warangal - Bhopalpatnam Hwy, Wadepally Lake, Prashanthnagar, Hanamkonda, Telangana 506001"
+            android:paddingBottom="12dp"/>
+        <Button
+            android:id="@+id/wade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:paddingBottom="12dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
